@@ -448,16 +448,17 @@ header {
 }
 
 .shop-info {
-    .wrapper{
+    .wrapper {
         margin-top: 32px;
         display: flex;
-        font-size: clamp(1rem, 2vw ,1.5rem);
+        font-size: 1rem;
     }
-    dt{
+
+    dt {
         text-align-last: right;
-        width: 250px;
+        width: 350px;
         max-width: 100%;
-        margin-right: 50px;
+        margin-right: 20px;
         font-weight: bold;
     }
 }
@@ -508,7 +509,7 @@ footer {
         .menu-back {
             position: fixed;
             top: 0;
-            left:50%;
+            left: 50%;
             z-index: 2;
             width: 50vw;
             height: 100vh;
@@ -664,19 +665,22 @@ footer {
         }
     }
 
-    .shop-info{
-        .wrapper{
+    .shop-info {
+        .wrapper {
             flex-direction: column;
             align-items: center;
             font-size: 1rem;
             text-align: center;
         }
-        dt{
+
+        dt {
+            font-size: 1.25rem;
             width: auto;
-            
+
             margin: 0;
         }
-        dd{
+
+        dd {
             margin-top: 10px;
         }
     }
